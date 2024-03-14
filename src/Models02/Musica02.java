@@ -5,16 +5,14 @@ import Models.Pessoa;
 public class Musica02 {
 
     private String titulo;
-    private Integer duracaoSegundos;
-    private Pessoa compositor;
+    private int duracaoSegundos;
 
     public Musica02() {
     }
 
-    public Musica02(String titulo, Integer duracaoSegundos, Pessoa compositor) {
+    public Musica02(String titulo, int duracaoSegundos) {
         this.titulo = titulo;
         this.duracaoSegundos = duracaoSegundos;
-        this.compositor = compositor;
     }
 
     public String getTitulo() {
@@ -25,24 +23,13 @@ public class Musica02 {
         this.titulo = titulo;
     }
 
-    public Integer getDuracaoSegundos() {
+    public int getDuracaoSegundos() {
         return duracaoSegundos;
     }
 
     public void setDuracaoSegundos(Integer duracaoSegundos) {
         this.duracaoSegundos = duracaoSegundos;
     }
-
-    public Pessoa getCompositor() {
-        return compositor;
-    }
-
-    public void setCompositor(Pessoa compositor) {
-        this.compositor = compositor;
-    }
-
-
-
 
 
 }
