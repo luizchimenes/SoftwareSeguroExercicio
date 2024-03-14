@@ -13,7 +13,9 @@ public class Main02 {
 
         ArrayList<Musica02> musicas = new ArrayList<>();
 
-        System.out.println("Quantas músicas o álbum possui?");
+        System.out.println("-------EXERCICIO 02-------");
+
+        System.out.println("Quantas músicas o novo álbum possui?");
         int quantidadeMusicas = scanner.nextInt();
 
         for (int i = 0; i < quantidadeMusicas; i++) {
